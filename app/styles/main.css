@@ -1,0 +1,44 @@
+body {
+  color: #565050;
+}
+
+.header {
+  height: 400px;
+  background-image: url("../images/taipei.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.glyphicon-th-list {
+  padding-right: 15px;
+  color: #658DD0;
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: #D4CFCF;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+.main {
+  padding-top: 55px;
+}
+
+.footer {
+  bottom: 0;
+      height: 60px;
+          margin-top: 50px;
+}
