@@ -4,7 +4,7 @@ body {
 
 .header {
   height: 400px;
-  background-image: url("../images/taipei.jpg");
+  /*background-image: url("../images/taipei.jpg");*/
   background-position: center center;
   background-size: cover;
 }
